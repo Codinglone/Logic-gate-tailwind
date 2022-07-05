@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Slake</title>
+  </head>
+  <body>
+    <!-- Nav container -->
+    <div
+      class="container flex flex-col mx-auto justify-between align-center md:flex-row"
+    >
+      <div class="logo">
+        <img
+          src="./img/extra/logo.png"
+          class="w-14 h-12 my-2 rounded-xl hover:drop-shadow-xl cursor-pointer hover:rounded-full 
+          transition ease-in-out ml-8 md:ml-0"
+          alt="logo"
+        />
+      </div>
+
+      <nav class="hidden my-4 flex space-x-4 md:block">
+        <a href="#" class="hover:text-gray-700 font-bold text-lg">Home</a>
+        <a href="#" class="hover:text-gray-700 font-bold text-lg">Careers</a>
+        <a href="#" class="hover:text-gray-700 font-bold text-lg">About Us</a>
+        <a href="#" class="hover:text-gray-700 font-bold text-lg">Community</a>
+
+        <button
+          class="bg-red-500 rounded-full text-white font-semibold drop-shadow-xl py-2 px-4 hover:bg-black transition ease-in-out"
+        >
+          Get Started
+        </button>
+
+          <!-- Hamburger Icon -->
+          <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+    
+          <!-- Mobile Menu -->
+          <div class="md:hidden">
+            <div id="menu" class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+              <a href="#">Pricing</a>
+              <a href="#">Product</a>
+              <a href="#">About Us</a>
+              <a href="#">Careers</a>
+              <a href="#">Community</a>
+            </div>
+          </div>
+      </nav>
+    </div>
+    <!-- Showcase -->
+    <section class="showcase">
+      <div
+        class="container flex flex-col-reverse space-x-4 mx-auto mt-32 md:flex-row"
+      >
+        <div
+          class="intro self-center max-w-md text-center md:text-left md:self-left"
+        >
+          <h1 class="text-5xl font-bold leading-12">
+            Explore the best web platform by using Logic Gate
+          </h1>
+          <p class="my-8 text-darkGrayishBlue text-base font-bold">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            obcaecati accusamus eligendi! Cupiditate labore quisquam perferendis
+            ab deleniti iusto aspernatur numquam odio magnam, ut nisi?
+          </p>
+          <button
+            class="bg-red-500 my-8 rounded-full text-white font-semibold drop-shadow-xl py-2 px-4 hover:bg-black"
+          >
+            Learn More !
+          </button>
+        </div>
+
+        <img src="./img/illustration-intro.svg" class="md:w-1/2" alt="" />
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="mb-8 md:my-8 md:mt-40">
+      <h1 class="text-center text-4xl text-black font-bold md:text-5xl">
+        Careers
+      </h1>
+
+      <!-- Projects Container -->
+      <div
+        class="container space-y-4 mx-auto flex flex-col md:space-x-4 md:flex-row"
+      >
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-1.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-2.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl mt-4 duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-3.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl mt-4 duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      </div>
+      
+      <!-- Projects Container 2-->
+      <div
+        class="container space-y-4 mx-auto flex flex-col md:space-x-4 md:flex-row"
+      >
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-4.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-5.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl mt-4 duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      <div class="my-4 mx-4 hover:drop-shadow-xl md:my-8 md:w-1/3">
+
+          <img
+            src="./img/extra/project-6.jpg"
+            class="rounded-xl cursor-pointer hover:rounded-2xl mt-4 duration-300 hover:-translate-y-2"
+            alt=""
+          />
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="mb-8 md:my-8 md:mt-40">
+      <h1 class="text-center text-4xl text-black font-bold md:text-5xl">
+        What's different about Logic Gate ?
+      </h1>
+      <!-- Testimonials container -->
+      <div class="container my-36 flex flex-col space-y-16 md:space-y-0 md:flex-row md:space-x-8 md:mx-auto">
+        <!-- Test 1 -->
+        <div class="bg-white border-t-2 border-red-600 rounded-2xl duration-300 cursor-pointer hover:-translate-y-2 mx-4 relative h-64 md:w-1/3 md:flex drop-shadow-xl">
+          <img src="./img/avatar-ali.png" class="w-20 h-20 absolute -top-8 left-44 md:left-28 border-4 border-red-600 rounded-full" alt="test 1">
+          <h1 class="py-12 text-2xl absolute left-44 md:left-28 font-bold mb-8">Jane Ali</h1>
+          <p class="py-24 mx-4 font-semibold text-base">
+            "It's been 4 years since I started using Logic Gate, but I don't know how I can tell you the way it has 
+            changed my life, coz it has helped me to make my plans very easier and effectively. Thanks to team."
+          </p>
+        </div>
+      
+        <!-- Test 2 -->
+        <div class="bg-white -mt-8 border-t-2 border-red-600 rounded-2xl duration-300 cursor-pointer hover:-translate-y-2 mx-4 relative h-64 md:w-1/3 md:flex drop-shadow-xl">
+          <img src="./img/avatar-richard.png" class="w-20 h-20 absolute -top-8 left-44 md:left-28 border-4 border-red-600 rounded-full" alt="test 1">
+          <h1 class="py-12 text-2xl absolute left-44 md:left-28 font-bold mb-8">Richard</h1>
+          <p class="py-24 mx-4 font-semibold text-base">
+            "It's been 4 years since I started using Logic Gate, but I don't know how I can tell you the way it has 
+            changed my life, coz it has helped me to make my plans very easier and effectively. Thanks to team."
+          </p>
+        </div>
+
+        <!-- Test 3 -->
+        <div class="bg-white border-t-2 border-red-600 rounded-2xl duration-300 cursor-pointer hover:-translate-y-2 mx-4 relative h-64 md:w-1/3 md:flex drop-shadow-xl">
+          <img src="./img/avatar-anisha.png" class="w-20 h-20 absolute -top-8 left-44 md:left-28 border-4 border-red-600 rounded-full" alt="test 1">
+          <h1 class="py-12 text-2xl absolute left-44 md:left-28 font-bold mb-8">Juliene </h1>
+          <p class="py-24 mx-4 font-semibold text-base">
+            "It's been 4 years since I started using Logic Gate, but I don't know how I can tell you the way it has 
+            changed my life, coz it has helped me to make my plans very easier and effectively. Thanks to team."
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button
+        class="bg-red-500 rounded-full 
+        text-white font-semibold drop-shadow-xl 
+        py-2 px-12 duration-300 ease-in-out hover:bg-red-700 md:my-8"
+       >
+        Start now !
+      </button>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <section id="cta" class="bg-red-600">
+      <!-- CTA Flex container -->
+      <div class="container flex flex-col mx-auto md:justify-between md:flex-row">
+        <!-- Flex item 1 -->
+        <div class="md:w-1/2">
+          <h1 class="py-12 text-5xl text-center font-bold text-white md:text-4xl">Simplify how your team works today</h1>
+        </div>
+
+      <!-- Flex item 2 -->
+      <div class="self-center mb-20 md:mb-0">
+        <button
+        class="bg-white rounded-full 
+        text-red-500 font-semibold drop-shadow-xl 
+        py-2 px-12 duration-300 ease-in-out hover:bg-red-900 hover:text-white md:my-8"
+       >
+        Get Started
+      </button>
+      </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-veryDarkBlue">
+      <!-- Flex container -->
+      <div class="container mx-auto flex flex-col-reverse md:flex-row md:space-x-8">
+        <!-- Flex item 1 -->
+        <div class="container flex flex-col-reverse md:flex-col md:w-1/3 md:mr-8">
+          <img src="./img/extra/logo.png" class="w-20 my-4 self-center duration-100 ease-in-out hover:rounded-2xl 
+          hover:-translate-y-2 md:self-start md:pt-8 md:h-20" alt="logo">
+
+          <div class="socials flex flex-row justify-center md:justify-start">
+            <img src="./img/icon-facebook.svg" class="w-8 my-8 mx-2 cursor-pointer hover:-translate-y-2 duration-300 ease-in-out md:my-8" alt="facebook">
+            <img src="./img/icon-instagram.svg" class="w-8 my-8 mx-2 cursor-pointer hover:-translate-y-2 duration-300 ease-in-out md:my-8" alt="facebook">
+            <img src="./img/icon-pinterest.svg" class="w-8 my-8 mx-2 cursor-pointer hover:-translate-y-2 duration-300 ease-in-out md:my-8" alt="facebook">
+            <img src="./img/icon-twitter.svg" class="w-8 my-8 mx-2 cursor-pointer hover:-translate-y-2 duration-300 ease-in-out md:my-8" alt="facebook">
+            <img src="./img/icon-youtube.svg" class="w-8 my-8 mx-2 cursor-pointer hover:-translate-y-2 duration-300 ease-in-out md:my-8" alt="facebook">
+          </div>
+
+        </div>
+
+        <!-- Flex item 2 -->
+        <div class="container flex flex-row">
+        <div class="container flex flex-col my-2 md:my-8 mx-20">
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Home</a>
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">About Us</a>
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Products</a>
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Community</a>
+        </div>
+
+        <!-- Flex item 3 -->
+        <div class="container flex flex-col my-2 md:my-8">
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Teams</a>
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Community</a>
+          <a href="#" class="text-md text-white my-2 hover:text-red-600 transition">Privacy Policy</a>
+        </div>
+      </div>
+
+        <div class="container flex flex-col-reverse md:flex-col md:w-1/3">
+          <form class="my-4 self-center duration-100 ease-in-out hover:rounded-2xl md:self-start 
+          md:pt-8 md:h-20">
+          <div class="flex flex-row mt-8 md:my-0">
+          <input type="text" class="px-20 outline-none py-2 rounded-full md:px-4" placeholder="Stay updated by inbox">
+          <button class="ml-2 bg-red-600 px-8 rounded-full text-white hover:bg-red-500 transition">Go</button>
+        </div>
+          </form>
+
+          <div class="socials flex flex-row justify-center md:justify-start">
+              <h1 class="hidden text-center text-white py-8 md:block">Copyright &copy; 2022, All Rights Reserved</h1>
+          </div>
+
+        </div>
+      </div>
+      <h1 class="text-center text-white py-8 md:hidden">Copyright &copy; 2022, All Rights Reserved</h1>
+    </section>
+
+    <script>
+    const btn = document.getElementById('menu-btn')
+const nav = document.getElementById('menu')
+
+btn.addEventListener('click', () => {
+    btn.classList.toggle('open')
+    nav.classList.toggle('flex')
+    nav.classList.toggle('hidden')
+})
+    </script>
+  </body>
+</html>
